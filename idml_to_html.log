@@ -1,0 +1,9 @@
+2025-10-24 19:22:16,443 - INFO - Checking output folder
+2025-10-24 19:22:16,443 - INFO - Output folder exists
+2025-10-24 19:22:16,443 - INFO - Checking input file
+2025-10-24 19:22:16,443 - INFO - Input file exists
+2025-10-24 19:22:16,443 - INFO - Checking temporary folder
+2025-10-24 19:22:16,443 - INFO - Temporary folder exists
+2025-10-24 19:22:16,443 - INFO - clearing temp folder
+2025-10-24 19:22:16,446 - INFO - Starting extraction of the input file
+2025-10-24 19:22:16,452 - INFO - Extraction successful
