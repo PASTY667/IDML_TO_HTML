@@ -10,6 +10,12 @@ import sys
 import shutil as shut
 import logging as log
 import datetime as dt
+import argparse
+
+parser = argparse.ArgumentParser(description="Convert IDML file into HTML signature.")
+parser.add_argument("-ct","--clear-temp",help="Clear temp folder",action="store_true")
+args = parser.parse_args()
+
 
 
 
@@ -62,6 +68,8 @@ def main():
     stories = parse_stories(temp_folder)
     styles = parse_styles(temp_folder)
     build_html(spreads,stories,styles,output_folder)
+    if args.clear_temp:
+        clear_temp(temp_folder)
 
 
 
