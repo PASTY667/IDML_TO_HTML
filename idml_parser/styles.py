@@ -6,4 +6,5 @@ import logging as log
 import datetime as dt
 
 def parse_styles(temp_folder):
-    pass
+    log.info("parse_styles() called — placeholder implementation.")
+    return True, {}
